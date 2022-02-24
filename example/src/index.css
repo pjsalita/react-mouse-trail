@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  background-color: #fff;
+  color: #000;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  overflow-x: hidden;
+}
+
+table {
+  border-collapse: collapse;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+table,
+th,
+td {
+  border: 1px solid;
+}
+
+td {
+  padding: 10px 5px;
+}
+
+.box {
+  float: left;
+  padding: 20px;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  color: #222;
+  width: 25%;
+}
+
+@media screen and (max-width: 500px) {
+  .box {
+    width: 100%;
+  }
+}
