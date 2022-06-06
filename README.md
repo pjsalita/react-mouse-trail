@@ -2,6 +2,10 @@
 
 A mouse trail component for React.
 
+[![npm version][npm-image]][npm-url]
+[![npm downloads][npm-downloads-image]][npm-url]
+![License][license]
+
 Live demo: [here](https://pjsalita.github.io/react-mouse-trail)
 
 ## Installation
@@ -35,4 +39,13 @@ function MyComponent() {
 }
 ```
 
+## License
+
+MIT License: Pj Salita &lt;pj.salita@gmail.com&gt;
+
 ### Reference: [JavaScript mouse trail - Codepen](https://codepen.io/falldowngoboone/pen/PwzPYv)
+
+[npm-image]: https://img.shields.io/npm/v/@pjsalita/react-mouse-trail.svg
+[npm-url]: https://npmjs.org/package/@pjsalita/react-mouse-trail
+[npm-downloads-image]: https://img.shields.io/npm/dm/@pjsalita/react-mouse-trail.svg
+[license]: https://img.shields.io/npm/l/@pjsalita/react-mouse-trail.svg
